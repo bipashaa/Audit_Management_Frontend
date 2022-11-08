@@ -1,0 +1,56 @@
+<!-- Header -->
+<app-nav-header></app-nav-header>
+
+<!-- Component Body -->
+<div class="container">
+  <div class="row">
+    <div class="col-6">
+      <div class="form">
+        <form autocomplete="off" (ngSubmit)="onLogIn()">
+          <h1>Login</h1>
+          <p>Please Enter Your Username and Password!</p>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label"
+              >Username</label
+            >
+            <input
+              class="form-control"
+              id="exampleFormControlInput1"
+              type="text"
+              [(ngModel)]="username"
+              name="username"
+              placeholder="Username"
+              required
+            />
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label"
+              >Password</label
+            >
+            <input
+              class="form-control"
+              id="exampleFormControlInput1"
+              type="password"
+              [(ngModel)]="password"
+              name="password"
+              placeholder="Password"
+              required
+            />
+            <button class="btn btn-success" type="submit" name="">Login</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="col-6 img">
+      <img src="../../assets/icon/audit.png" class="audit" />
+    </div>
+  </div>
+
+  <div
+    class="alert alert-danger error-message"
+    role="alert"
+    *ngIf="message.length > 0"
+  >
+    {{ message }}
+  </div>
+</div>

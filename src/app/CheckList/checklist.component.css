@@ -1,0 +1,140 @@
+h4 {
+    margin-left: 77%;
+    margin-top: 20px;
+}
+img {
+    border-radius: 50%;
+    max-height: 8vh;
+    margin: 4px;
+}
+
+.col-6{
+    text-align: center;
+}
+
+.right{
+    margin-top: 60px;
+}
+.seequestions{
+    margin-top: 40px;
+}
+.box1 {
+    display: flex;
+   justify-content: center;
+  }
+
+  .checklist{
+    max-width: 250px;
+    max-height: 550px;
+  }
+
+  .largeLable{
+    color: #000;
+    font-size: 3vh;
+  }
+
+  .box2 {
+    margin-top: 4vh;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+    width:90%;
+    color: #fff;
+    text-align: center;
+    border-radius: 20px;
+  }
+  table{
+    width:90%;
+    height: 70%;
+   text-align: center;
+  }
+
+  .center{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  th{
+      font-size: large;
+  }
+
+  .question{
+    text-align: left;
+  }
+
+  td{
+    vertical-align: middle;
+  }
+
+  .leftside{
+      padding-left: 15px;
+      text-align: center;
+      width: 30%;
+      border-color: #fff;
+      border-width: 1px;
+      border-top-left-radius: 10px;
+      border-left: 0px;
+  }
+  .rightside{
+      padding-top: 2px;
+      padding-bottom: 2px;
+      text-align: center;
+      width: 20%;
+      border-color: #fff;
+      border-width: 1px;
+      border-radius: 10px;
+      border-right: 1px;
+  }
+  .rightend{
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: center;
+    width: 30%;
+    border-color: #fff;
+    border-width: 1px;
+    border-radius: 10px;
+    border-right: 0px;
+    border-left: 1px;
+}
+  .topside{
+      border-top: 0px;
+      border-right: 0px;
+  }
+
+  #opt{
+      width: 100px;
+    border-radius: 10px;
+    padding-left: 10px;
+  }
+
+
+.qdivbtn{
+    text-align: center;
+    margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+.bigbtn, .lastbtn{
+    width: 120px;
+}
+.bigbtn{
+    padding: 5px;
+}
+
+.selectTag{
+    height:5vh;
+    margin-left:0.5%;
+}
+.tab1{
+    text-align: center;
+    width:70%
+}
+.error-message{
+    position: absolute;
+    bottom: 10px;
+    left: 70px;
+    color: black;
+}

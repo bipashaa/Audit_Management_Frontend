@@ -1,0 +1,14 @@
+footer {
+    width : 99%;
+    height : 6vh;
+    color: #000;
+    background-color: transparent;
+    position: fixed;
+    bottom: 0;
+}
+
+footer h6 {
+    display: flex;
+    justify-content: right;
+    margin-top: 10px;
+}
